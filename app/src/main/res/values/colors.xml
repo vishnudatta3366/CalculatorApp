@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Grey color for number buttons -->
+    <color name="number_button_color">#BDBDBD</color>
+
+    <!-- Teal color for operator buttons -->
+    <color name="operator_button_color">#009688</color>
+
+    <!-- White color for button text -->
+    <color name="button_text_color">#FFFFFF</color>
+</resources>

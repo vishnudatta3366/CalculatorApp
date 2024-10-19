@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base style for all calculator buttons -->
+    <style name="CalculatorButtonBase" parent="Widget.AppCompat.Button">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:layout_gravity">fill</item>
+        <item name="android:textColor">@color/button_text_color</item>
+        <!-- Maintain ripple effect -->
+        <item name="android:backgroundTint">@null</item>
+    </style>
+
+    <!-- Style for number buttons -->
+    <style name="NumberButton" parent="CalculatorButtonBase">
+        <item name="android:backgroundTint">@color/number_button_color</item>
+    </style>
+
+    <!-- Style for operator buttons -->
+    <style name="OperatorButton" parent="CalculatorButtonBase">
+        <item name="android:backgroundTint">@color/operator_button_color</item>
+    </style>
+</resources>
